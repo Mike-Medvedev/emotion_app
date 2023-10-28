@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <span>{{ title }}</span>
+
+  <span class="example-fill-remaining-space"></span>
+</mat-toolbar>
+<div class="container">
+  <div class="banner">
+    Wondering how you're feeling? Choose the emotion that describes you best
+  </div>
+  <button
+    mat-stroked-button
+    class="button"
+    color="primary"
+    routerLink="/emotion_selector"
+  >
+    Select Emotion
+  </button>
+</div>
+
+<router-outlet></router-outlet>
+<div class="footer">
+  <p>&copy; 2023 Whatsyourvibe.com</p>
+  <p>
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms of Service</a>
+  </p>
+</div>

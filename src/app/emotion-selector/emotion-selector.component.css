@@ -1,0 +1,13 @@
+.centered-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: flex;
+
+} 
+.selected-emotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

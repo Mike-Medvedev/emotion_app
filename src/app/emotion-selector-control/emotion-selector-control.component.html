@@ -1,0 +1,23 @@
+<div class="app-emotion-selector-control">
+  <img
+    [ngClass]="{ selected: selectedEmotion === '0' }"
+    (click)="setEmotion('0')"
+    src="../../assets/happy.svg"
+    alt="Happy Face"
+    class="img-size"
+  />
+  <img
+    [ngClass]="{ selected: selectedEmotion === '1' }"
+    (click)="setEmotion('1')"
+    src="../../assets/indifferent.svg"
+    alt="Indifferent Face"
+    class="img-size"
+  />
+  <img
+    [ngClass]="{ selected: selectedEmotion === '2' }"
+    (click)="setEmotion('2')"
+    src="../../assets/sad.svg"
+    alt="Sad Face"
+    class="img-size"
+  />
+</div>

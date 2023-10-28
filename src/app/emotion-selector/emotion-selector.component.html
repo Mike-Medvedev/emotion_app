@@ -1,0 +1,12 @@
+<mat-card class="centered-card-container">
+  <form [formGroup]="emotionForm" class="emotion-form">
+    <app-emotion-selector-control
+      formControlName="emotion"
+    ></app-emotion-selector-control>
+    <div class="selected-emotion">
+      <p>
+        Selected Mood: {{ emotionForm.get("emotion")?.value | emotionValue }}
+      </p>
+    </div>
+  </form>
+</mat-card>
